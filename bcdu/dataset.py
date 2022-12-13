@@ -6,16 +6,16 @@ import numpy as np
 
 ROOT_PATH = './data'
 FILE_EXTENSIONS = ('jpg', 'JPG', 'png', 'PNG', 'tif', 'gif', 'ppm')
+
 BATCH_SIZE = 2
 
 DEFAULT_IMAGE_HEIGHT = 2848
 DEFAULT_IMAGE_WIDTH = 4288
-IMAGE_DIMENSION = 512
-HEIGHT_IMAGE_COUNT = 146
-HEIGHT_INCREMENT = 48
-WIDTH_INCREMENT = 0
-WIDTH_IMAGE_COUNT = 67
-
+IMAGE_DIMENSION = 64
+HEIGHT_IMAGE_COUNT = 9
+HEIGHT_INCREMENT = 292
+WIDTH_INCREMENT = 472
+WIDTH_IMAGE_COUNT = 9
 
 def getSortedFilePaths(path):
     pathToFiles = os.path.join(ROOT_PATH, path)
@@ -51,8 +51,8 @@ def transformImage(imagePath):
     image = tf.io.read_file(imagePath)
     image = tf.io.decode_jpeg(image)
     image = tf.squeeze(image)
-    image.set_shape([None, None, 3])
-    image = tf.image.adjust_contrast(image, 2.5)
+    image = tf.image.rgb_to_grayscale(image)
+    image.set_shape([None, None, 1])
 
     images = []
     for i in range(0, HEIGHT_IMAGE_COUNT):
@@ -84,28 +84,3 @@ def datasetGenerator(trainingImagePaths, trainingMaskPaths):
     dataset = dataset.flat_map(flattenImages)
     dataset = dataset.batch(BATCH_SIZE, drop_remainder=False)
     return dataset
-
-
-def visualize(**images):
-    n = len(images)
-    plt.figure(figsize=(20, 20))
-    for i, (name, image) in enumerate(images.items()):
-        plt.subplot(1, n, i + 1)
-        plt.xticks([])
-        plt.yticks([])
-        plt.title(' '.join(name.split('_')).title())
-        plt.imshow(image, cmap='gray')
-    plt.show()
-
-
-def testDataset(train_dataset):
-    image, mask = next(iter(train_dataset.take(5)))
-    print(image.shape, mask.shape)
-
-    for (img, msk) in zip(image[:10], mask[:10]):
-        print(mask.numpy().min(), mask.numpy().max())
-        print(np.unique(mask.numpy()))
-        visualize(
-            image=img.numpy(),
-            gt_mask=msk.numpy(),
-        )
