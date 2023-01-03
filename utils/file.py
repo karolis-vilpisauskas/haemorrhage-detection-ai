@@ -11,10 +11,10 @@ BATCH_SIZE = 2
 DEFAULT_IMAGE_HEIGHT = 2848
 DEFAULT_IMAGE_WIDTH = 4288
 IMAGE_DIMENSION = 512
-HEIGHT_IMAGE_COUNT = 146
-HEIGHT_INCREMENT = 48
-WIDTH_INCREMENT = 0
-WIDTH_IMAGE_COUNT = 67
+HEIGHT_IMAGE_COUNT = 9
+HEIGHT_INCREMENT = 292
+WIDTH_INCREMENT = 472
+WIDTH_IMAGE_COUNT = 9
 
 
 def getSortedFilePaths(path):
@@ -99,13 +99,13 @@ def visualize(**images):
 
 
 def testDataset(train_dataset):
-    image, mask = next(iter(train_dataset.take(5)))
+    image, mask = next(iter(train_dataset.take(1)))
     print(image.shape, mask.shape)
 
-    for (img, msk) in zip(image[:10], mask[:10]):
+    for (img, msk) in zip(image, mask):
         print(mask.numpy().min(), mask.numpy().max())
         print(np.unique(mask.numpy()))
         visualize(
-            image=img.numpy(),
-            gt_mask=msk.numpy(),
+            nuotrauka=img.numpy(),
+            anotacija=msk.numpy(),
         )
