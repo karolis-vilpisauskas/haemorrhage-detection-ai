@@ -1,0 +1,511 @@
+Found 53 images belonging to 1 classes.
+Found 53 images belonging to 1 classes.
+Epoch: 0, learning rate = 0.001
+Epoch 1/100
+26/26 [==============================] - ETA: 0s - loss: 0.9232 - dice_eval: 0.0205Found 27 images belonging to 1 classes.
+Found 27 images belonging to 1 classes.
+
+Epoch 1: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-001-0.9232.hdf5
+New best weights found!
+26/26 [==============================] - 17s 512ms/step - loss: 0.9232 - dice_eval: 0.0205 - val_loss: 0.8425 - val_dice_eval: 0.0282 - lr: 0.0010
+Epoch: 1, learning rate = 0.001
+Epoch 2/100
+26/26 [==============================] - ETA: 0s - loss: 0.8462 - dice_eval: 0.0191
+Epoch 2: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-002-0.8462.hdf5
+26/26 [==============================] - 12s 471ms/step - loss: 0.8462 - dice_eval: 0.0191 - val_loss: 0.8351 - val_dice_eval: 0.0177 - lr: 0.0010
+Epoch: 2, learning rate = 0.001
+Epoch 3/100
+26/26 [==============================] - ETA: 0s - loss: 0.8354 - dice_eval: 0.0049
+Epoch 3: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-003-0.8354.hdf5
+26/26 [==============================] - 12s 486ms/step - loss: 0.8354 - dice_eval: 0.0049 - val_loss: 0.8346 - val_dice_eval: 0.0023 - lr: 0.0010
+Epoch: 3, learning rate = 0.001
+Epoch 4/100
+26/26 [==============================] - ETA: 0s - loss: 0.8348 - dice_eval: 0.0033
+Epoch 4: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-004-0.8348.hdf5
+26/26 [==============================] - 12s 457ms/step - loss: 0.8348 - dice_eval: 0.0033 - val_loss: 0.8346 - val_dice_eval: 2.2182e-09 - lr: 0.0010
+Epoch: 4, learning rate = 0.001
+Epoch 5/100
+26/26 [==============================] - ETA: 0s - loss: 0.8373 - dice_eval: 0.0054
+Epoch 5: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-005-0.8373.hdf5
+26/26 [==============================] - 12s 478ms/step - loss: 0.8373 - dice_eval: 0.0054 - val_loss: 0.8335 - val_dice_eval: 0.0107 - lr: 0.0010
+Epoch: 5, learning rate = 0.001
+Epoch 6/100
+26/26 [==============================] - ETA: 0s - loss: 0.8319 - dice_eval: 0.0025
+Epoch 6: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-006-0.8319.hdf5
+26/26 [==============================] - 11s 434ms/step - loss: 0.8319 - dice_eval: 0.0025 - val_loss: 0.8333 - val_dice_eval: 0.0051 - lr: 0.0010
+Epoch: 6, learning rate = 0.001
+Epoch 7/100
+26/26 [==============================] - ETA: 0s - loss: 0.8367 - dice_eval: 2.5405e-09
+Epoch 7: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-007-0.8367.hdf5
+26/26 [==============================] - 11s 430ms/step - loss: 0.8367 - dice_eval: 2.5405e-09 - val_loss: 0.8335 - val_dice_eval: 3.7615e-04 - lr: 0.0010
+Epoch: 7, learning rate = 0.001
+Epoch 8/100
+26/26 [==============================] - ETA: 0s - loss: 0.8300 - dice_eval: 5.9366e-09
+Epoch 8: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-008-0.8300.hdf5
+26/26 [==============================] - 11s 437ms/step - loss: 0.8300 - dice_eval: 5.9366e-09 - val_loss: 0.8338 - val_dice_eval: 2.8044e-09 - lr: 0.0010
+Epoch: 8, learning rate = 0.001
+Epoch 9/100
+26/26 [==============================] - ETA: 0s - loss: 0.8365 - dice_eval: 0.0385
+Epoch 9: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-009-0.8365.hdf5
+26/26 [==============================] - 11s 431ms/step - loss: 0.8365 - dice_eval: 0.0385 - val_loss: 0.8330 - val_dice_eval: 1.8146e-09 - lr: 0.0010
+Epoch: 9, learning rate = 0.001
+Epoch 10/100
+26/26 [==============================] - ETA: 0s - loss: 0.8285 - dice_eval: 2.1141e-09
+Epoch 10: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-010-0.8285.hdf5
+26/26 [==============================] - 11s 441ms/step - loss: 0.8285 - dice_eval: 2.1141e-09 - val_loss: 0.8325 - val_dice_eval: 2.7487e-09 - lr: 0.0010
+Epoch: 10, learning rate = 0.001
+Epoch 11/100
+26/26 [==============================] - ETA: 0s - loss: 0.8348 - dice_eval: 4.6483e-09
+Epoch 11: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-011-0.8348.hdf5
+26/26 [==============================] - 11s 433ms/step - loss: 0.8348 - dice_eval: 4.6483e-09 - val_loss: 0.8320 - val_dice_eval: 3.2962e-09 - lr: 0.0010
+Epoch: 11, learning rate = 0.001
+Epoch 12/100
+26/26 [==============================] - ETA: 0s - loss: 0.8326 - dice_eval: 5.7684e-09
+Epoch 12: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-012-0.8326.hdf5
+26/26 [==============================] - 11s 436ms/step - loss: 0.8326 - dice_eval: 5.7684e-09 - val_loss: 0.8316 - val_dice_eval: 2.7257e-09 - lr: 0.0010
+Epoch: 12, learning rate = 0.001
+Epoch 13/100
+26/26 [==============================] - ETA: 0s - loss: 0.8303 - dice_eval: 2.9348e-09
+Epoch 13: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-013-0.8303.hdf5
+26/26 [==============================] - 11s 440ms/step - loss: 0.8303 - dice_eval: 2.9348e-09 - val_loss: 0.8303 - val_dice_eval: 2.1438e-09 - lr: 0.0010
+Epoch: 13, learning rate = 0.001
+Epoch 14/100
+26/26 [==============================] - ETA: 0s - loss: 0.8312 - dice_eval: 8.6431e-04
+Epoch 14: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-014-0.8312.hdf5
+26/26 [==============================] - 11s 436ms/step - loss: 0.8312 - dice_eval: 8.6431e-04 - val_loss: 0.8294 - val_dice_eval: 2.7321e-09 - lr: 0.0010
+Epoch: 14, learning rate = 0.001
+Epoch 15/100
+26/26 [==============================] - ETA: 0s - loss: 0.8296 - dice_eval: 0.0022
+Epoch 15: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-015-0.8296.hdf5
+26/26 [==============================] - 11s 434ms/step - loss: 0.8296 - dice_eval: 0.0022 - val_loss: 0.8281 - val_dice_eval: 2.6471e-09 - lr: 0.0010
+Epoch: 15, learning rate = 0.001
+Epoch 16/100
+26/26 [==============================] - ETA: 0s - loss: 0.8324 - dice_eval: 9.6154e-04
+Epoch 16: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-016-0.8324.hdf5
+26/26 [==============================] - 11s 436ms/step - loss: 0.8324 - dice_eval: 9.6154e-04 - val_loss: 0.8309 - val_dice_eval: 2.3557e-09 - lr: 0.0010
+Epoch: 16, learning rate = 0.001
+Epoch 17/100
+26/26 [==============================] - ETA: 0s - loss: 0.8268 - dice_eval: 0.0016
+Epoch 17: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-017-0.8268.hdf5
+26/26 [==============================] - 11s 436ms/step - loss: 0.8268 - dice_eval: 0.0016 - val_loss: 0.8272 - val_dice_eval: 2.3318e-09 - lr: 0.0010
+Epoch: 17, learning rate = 0.001
+Epoch 18/100
+26/26 [==============================] - ETA: 0s - loss: 0.8314 - dice_eval: 0.0018
+Epoch 18: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-018-0.8314.hdf5
+26/26 [==============================] - 11s 440ms/step - loss: 0.8314 - dice_eval: 0.0018 - val_loss: 0.8263 - val_dice_eval: 1.9873e-09 - lr: 0.0010
+Epoch: 18, learning rate = 0.001
+Epoch 19/100
+26/26 [==============================] - ETA: 0s - loss: 0.8266 - dice_eval: 0.0066
+Epoch 19: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-019-0.8266.hdf5
+26/26 [==============================] - 11s 454ms/step - loss: 0.8266 - dice_eval: 0.0066 - val_loss: 0.8256 - val_dice_eval: 2.4496e-09 - lr: 0.0010
+Epoch: 19, learning rate = 0.001
+Epoch 20/100
+26/26 [==============================] - ETA: 0s - loss: 0.8282 - dice_eval: 0.0049
+Epoch 20: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-020-0.8282.hdf5
+26/26 [==============================] - 11s 452ms/step - loss: 0.8282 - dice_eval: 0.0049 - val_loss: 0.8249 - val_dice_eval: 2.7124e-09 - lr: 0.0010
+Epoch: 20, learning rate = 0.001
+Epoch 21/100
+26/26 [==============================] - ETA: 0s - loss: 0.8260 - dice_eval: 0.0048
+Epoch 21: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-021-0.8260.hdf5
+26/26 [==============================] - 11s 453ms/step - loss: 0.8260 - dice_eval: 0.0048 - val_loss: 0.8251 - val_dice_eval: 2.3167e-09 - lr: 0.0010
+Epoch: 21, learning rate = 0.001
+Epoch 22/100
+26/26 [==============================] - ETA: 0s - loss: 0.8274 - dice_eval: 3.4146e-09
+Epoch 22: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-022-0.8274.hdf5
+26/26 [==============================] - 12s 459ms/step - loss: 0.8274 - dice_eval: 3.4146e-09 - val_loss: 0.8241 - val_dice_eval: 2.8587e-09 - lr: 0.0010
+Epoch: 22, learning rate = 0.001
+Epoch 23/100
+26/26 [==============================] - ETA: 0s - loss: 0.8249 - dice_eval: 0.0020    
+Epoch 23: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-023-0.8249.hdf5
+26/26 [==============================] - 11s 447ms/step - loss: 0.8249 - dice_eval: 0.0020 - val_loss: 0.8233 - val_dice_eval: 2.4164e-09 - lr: 0.0010
+Epoch: 23, learning rate = 0.001
+Epoch 24/100
+26/26 [==============================] - ETA: 0s - loss: 0.8238 - dice_eval: 0.0076
+Epoch 24: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-024-0.8238.hdf5
+26/26 [==============================] - 11s 435ms/step - loss: 0.8238 - dice_eval: 0.0076 - val_loss: 0.8231 - val_dice_eval: 2.8922e-09 - lr: 0.0010
+Epoch: 24, learning rate = 0.001
+Epoch 25/100
+26/26 [==============================] - ETA: 0s - loss: 0.8244 - dice_eval: 3.8177e-09
+Epoch 25: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-025-0.8244.hdf5
+26/26 [==============================] - 11s 439ms/step - loss: 0.8244 - dice_eval: 3.8177e-09 - val_loss: 0.8221 - val_dice_eval: 2.1115e-09 - lr: 0.0010
+Epoch: 25, learning rate = 0.001
+Epoch 26/100
+26/26 [==============================] - ETA: 0s - loss: 0.8227 - dice_eval: 0.0079
+Epoch 26: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-026-0.8227.hdf5
+26/26 [==============================] - 11s 438ms/step - loss: 0.8227 - dice_eval: 0.0079 - val_loss: 0.8215 - val_dice_eval: 2.2868e-09 - lr: 0.0010
+Epoch: 26, learning rate = 0.001
+Epoch 27/100
+26/26 [==============================] - ETA: 0s - loss: 0.8222 - dice_eval: 3.3624e-09
+Epoch 27: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-027-0.8222.hdf5
+26/26 [==============================] - 11s 434ms/step - loss: 0.8222 - dice_eval: 3.3624e-09 - val_loss: 0.8201 - val_dice_eval: 2.7578e-09 - lr: 0.0010
+Epoch: 27, learning rate = 0.001
+Epoch 28/100
+26/26 [==============================] - ETA: 0s - loss: 0.8211 - dice_eval: 0.0049
+Epoch 28: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-028-0.8211.hdf5
+26/26 [==============================] - 11s 444ms/step - loss: 0.8211 - dice_eval: 0.0049 - val_loss: 0.8197 - val_dice_eval: 1.7653e-09 - lr: 0.0010
+Epoch: 28, learning rate = 0.001
+Epoch 29/100
+26/26 [==============================] - ETA: 0s - loss: 0.8218 - dice_eval: 2.8842e-09
+Epoch 29: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-029-0.8218.hdf5
+26/26 [==============================] - 11s 445ms/step - loss: 0.8218 - dice_eval: 2.8842e-09 - val_loss: 0.8193 - val_dice_eval: 2.2534e-09 - lr: 0.0010
+Epoch: 29, learning rate = 0.001
+Epoch 30/100
+26/26 [==============================] - ETA: 0s - loss: 0.8169 - dice_eval: 0.0058
+Epoch 30: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-030-0.8169.hdf5
+26/26 [==============================] - 11s 438ms/step - loss: 0.8169 - dice_eval: 0.0058 - val_loss: 0.8193 - val_dice_eval: 1.8965e-09 - lr: 0.0010
+Epoch: 30, learning rate = 0.001
+Epoch 31/100
+26/26 [==============================] - ETA: 0s - loss: 0.8171 - dice_eval: 3.4781e-09
+Epoch 31: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-031-0.8171.hdf5
+26/26 [==============================] - 11s 442ms/step - loss: 0.8171 - dice_eval: 3.4781e-09 - val_loss: 0.8164 - val_dice_eval: 2.1275e-09 - lr: 0.0010
+Epoch: 31, learning rate = 0.001
+Epoch 32/100
+26/26 [==============================] - ETA: 0s - loss: 0.8168 - dice_eval: 6.7663e-09
+Epoch 32: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-032-0.8168.hdf5
+26/26 [==============================] - 11s 434ms/step - loss: 0.8168 - dice_eval: 6.7663e-09 - val_loss: 0.8159 - val_dice_eval: 3.1915e-09 - lr: 0.0010
+Epoch: 32, learning rate = 0.001
+Epoch 33/100
+26/26 [==============================] - ETA: 0s - loss: 0.8146 - dice_eval: 4.6352e-09
+Epoch 33: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-033-0.8146.hdf5
+26/26 [==============================] - 11s 434ms/step - loss: 0.8146 - dice_eval: 4.6352e-09 - val_loss: 0.8140 - val_dice_eval: 3.4398e-09 - lr: 0.0010
+Epoch: 33, learning rate = 0.001
+Epoch 34/100
+26/26 [==============================] - ETA: 0s - loss: 0.8145 - dice_eval: 0.0036
+Epoch 34: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-034-0.8145.hdf5
+26/26 [==============================] - 11s 451ms/step - loss: 0.8145 - dice_eval: 0.0036 - val_loss: 0.8109 - val_dice_eval: 2.0151e-09 - lr: 0.0010
+Epoch: 34, learning rate = 0.001
+Epoch 35/100
+26/26 [==============================] - ETA: 0s - loss: 0.8118 - dice_eval: 0.0221
+Epoch 35: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-035-0.8118.hdf5
+26/26 [==============================] - 11s 445ms/step - loss: 0.8118 - dice_eval: 0.0221 - val_loss: 0.8120 - val_dice_eval: 1.7845e-09 - lr: 0.0010
+Epoch: 35, learning rate = 0.0005
+Epoch 36/100
+26/26 [==============================] - ETA: 0s - loss: 0.8112 - dice_eval: 7.3189e-09
+Epoch 36: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-036-0.8112.hdf5
+26/26 [==============================] - 11s 442ms/step - loss: 0.8112 - dice_eval: 7.3189e-09 - val_loss: 0.8113 - val_dice_eval: 2.5104e-09 - lr: 5.0000e-04
+Epoch: 36, learning rate = 0.0005
+Epoch 37/100
+26/26 [==============================] - ETA: 0s - loss: 0.8093 - dice_eval: 2.9815e-09
+Epoch 37: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-037-0.8093.hdf5
+26/26 [==============================] - 11s 439ms/step - loss: 0.8093 - dice_eval: 2.9815e-09 - val_loss: 0.8084 - val_dice_eval: 1.8486e-09 - lr: 5.0000e-04
+Epoch: 37, learning rate = 0.0005
+Epoch 38/100
+26/26 [==============================] - ETA: 0s - loss: 0.8088 - dice_eval: 0.0189
+Epoch 38: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-038-0.8088.hdf5
+26/26 [==============================] - 11s 442ms/step - loss: 0.8088 - dice_eval: 0.0189 - val_loss: 0.8071 - val_dice_eval: 1.5640e-09 - lr: 5.0000e-04
+Epoch: 38, learning rate = 0.0005
+Epoch 39/100
+26/26 [==============================] - ETA: 0s - loss: 0.8089 - dice_eval: 4.8361e-09
+Epoch 39: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-039-0.8089.hdf5
+26/26 [==============================] - 11s 455ms/step - loss: 0.8089 - dice_eval: 4.8361e-09 - val_loss: 0.8069 - val_dice_eval: 1.6148e-09 - lr: 5.0000e-04
+Epoch: 39, learning rate = 0.0005
+Epoch 40/100
+26/26 [==============================] - ETA: 0s - loss: 0.8075 - dice_eval: 6.1255e-04
+Epoch 40: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-040-0.8075.hdf5
+26/26 [==============================] - 11s 436ms/step - loss: 0.8075 - dice_eval: 6.1255e-04 - val_loss: 0.8057 - val_dice_eval: 2.1227e-09 - lr: 5.0000e-04
+Epoch: 40, learning rate = 0.0005
+Epoch 41/100
+26/26 [==============================] - ETA: 0s - loss: 0.8089 - dice_eval: 0.0023
+Epoch 41: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-041-0.8089.hdf5
+26/26 [==============================] - 11s 435ms/step - loss: 0.8089 - dice_eval: 0.0023 - val_loss: 0.8011 - val_dice_eval: 0.0067 - lr: 5.0000e-04
+Epoch: 41, learning rate = 0.0005
+Epoch 42/100
+26/26 [==============================] - ETA: 0s - loss: 0.8036 - dice_eval: 0.0483
+Epoch 42: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-042-0.8036.hdf5
+26/26 [==============================] - 11s 436ms/step - loss: 0.8036 - dice_eval: 0.0483 - val_loss: 0.8011 - val_dice_eval: 0.0032 - lr: 5.0000e-04
+Epoch: 42, learning rate = 0.0005
+Epoch 43/100
+26/26 [==============================] - ETA: 0s - loss: 0.8063 - dice_eval: 0.0010
+Epoch 43: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-043-0.8063.hdf5
+26/26 [==============================] - 11s 441ms/step - loss: 0.8063 - dice_eval: 0.0010 - val_loss: 0.8055 - val_dice_eval: 0.0016 - lr: 5.0000e-04
+Epoch: 43, learning rate = 0.0005
+Epoch 44/100
+26/26 [==============================] - ETA: 0s - loss: 0.8045 - dice_eval: 4.3969e-09
+Epoch 44: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-044-0.8045.hdf5
+26/26 [==============================] - 11s 449ms/step - loss: 0.8045 - dice_eval: 4.3969e-09 - val_loss: 0.8025 - val_dice_eval: 0.0017 - lr: 5.0000e-04
+Epoch: 44, learning rate = 0.0005
+Epoch 45/100
+26/26 [==============================] - ETA: 0s - loss: 0.8021 - dice_eval: 0.0400
+Epoch 45: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-045-0.8021.hdf5
+26/26 [==============================] - 11s 445ms/step - loss: 0.8021 - dice_eval: 0.0400 - val_loss: 0.8006 - val_dice_eval: 1.6562e-09 - lr: 5.0000e-04
+Epoch: 45, learning rate = 0.0005
+Epoch 46/100
+26/26 [==============================] - ETA: 0s - loss: 0.8020 - dice_eval: 0.0057
+Epoch 46: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-046-0.8020.hdf5
+26/26 [==============================] - 11s 448ms/step - loss: 0.8020 - dice_eval: 0.0057 - val_loss: 0.7983 - val_dice_eval: 1.5155e-09 - lr: 5.0000e-04
+Epoch: 46, learning rate = 0.0005
+Epoch 47/100
+26/26 [==============================] - ETA: 0s - loss: 0.7985 - dice_eval: 0.0171
+Epoch 47: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-047-0.7985.hdf5
+26/26 [==============================] - 11s 439ms/step - loss: 0.7985 - dice_eval: 0.0171 - val_loss: 0.7982 - val_dice_eval: 1.4248e-09 - lr: 5.0000e-04
+Epoch: 47, learning rate = 0.0005
+Epoch 48/100
+26/26 [==============================] - ETA: 0s - loss: 0.8011 - dice_eval: 0.0022
+Epoch 48: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-048-0.8011.hdf5
+26/26 [==============================] - 11s 440ms/step - loss: 0.8011 - dice_eval: 0.0022 - val_loss: 0.7973 - val_dice_eval: 1.3069e-09 - lr: 5.0000e-04
+Epoch: 48, learning rate = 0.0005
+Epoch 49/100
+26/26 [==============================] - ETA: 0s - loss: 0.7991 - dice_eval: 3.9854e-09
+Epoch 49: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-049-0.7991.hdf5
+26/26 [==============================] - 11s 442ms/step - loss: 0.7991 - dice_eval: 3.9854e-09 - val_loss: 0.7964 - val_dice_eval: 1.2223e-09 - lr: 5.0000e-04
+Epoch: 49, learning rate = 0.0005
+Epoch 50/100
+26/26 [==============================] - ETA: 0s - loss: 0.7973 - dice_eval: 4.5531e-09
+Epoch 50: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-050-0.7973.hdf5
+26/26 [==============================] - 11s 440ms/step - loss: 0.7973 - dice_eval: 4.5531e-09 - val_loss: 0.7947 - val_dice_eval: 2.0603e-09 - lr: 5.0000e-04
+Epoch: 50, learning rate = 0.0005
+Epoch 51/100
+26/26 [==============================] - ETA: 0s - loss: 0.7964 - dice_eval: 7.6242e-09
+Epoch 51: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-051-0.7964.hdf5
+26/26 [==============================] - 11s 438ms/step - loss: 0.7964 - dice_eval: 7.6242e-09 - val_loss: 0.7973 - val_dice_eval: 2.0435e-09 - lr: 5.0000e-04
+Epoch: 51, learning rate = 0.0005
+Epoch 52/100
+26/26 [==============================] - ETA: 0s - loss: 0.7944 - dice_eval: 0.0081
+Epoch 52: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-052-0.7944.hdf5
+26/26 [==============================] - 11s 438ms/step - loss: 0.7944 - dice_eval: 0.0081 - val_loss: 0.7935 - val_dice_eval: 3.0834e-09 - lr: 5.0000e-04
+Epoch: 52, learning rate = 0.0005
+Epoch 53/100
+26/26 [==============================] - ETA: 0s - loss: 0.7939 - dice_eval: 0.0274
+Epoch 53: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-053-0.7939.hdf5
+26/26 [==============================] - 11s 439ms/step - loss: 0.7939 - dice_eval: 0.0274 - val_loss: 0.7967 - val_dice_eval: 2.7553e-09 - lr: 5.0000e-04
+Epoch: 53, learning rate = 0.0005
+Epoch 54/100
+26/26 [==============================] - ETA: 0s - loss: 0.7924 - dice_eval: 0.0086
+Epoch 54: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-054-0.7924.hdf5
+26/26 [==============================] - 11s 439ms/step - loss: 0.7924 - dice_eval: 0.0086 - val_loss: 0.7933 - val_dice_eval: 2.1009e-09 - lr: 5.0000e-04
+Epoch: 54, learning rate = 0.0005
+Epoch 55/100
+26/26 [==============================] - ETA: 0s - loss: 0.7911 - dice_eval: 0.0235
+Epoch 55: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-055-0.7911.hdf5
+26/26 [==============================] - 11s 448ms/step - loss: 0.7911 - dice_eval: 0.0235 - val_loss: 0.7944 - val_dice_eval: 2.3493e-09 - lr: 5.0000e-04
+Epoch: 55, learning rate = 0.0005
+Epoch 56/100
+26/26 [==============================] - ETA: 0s - loss: 0.7903 - dice_eval: 3.0251e-09
+Epoch 56: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-056-0.7903.hdf5
+26/26 [==============================] - 11s 445ms/step - loss: 0.7903 - dice_eval: 3.0251e-09 - val_loss: 0.7911 - val_dice_eval: 2.6880e-09 - lr: 5.0000e-04
+Epoch: 56, learning rate = 0.0005
+Epoch 57/100
+26/26 [==============================] - ETA: 0s - loss: 0.7905 - dice_eval: 0.0021
+Epoch 57: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-057-0.7905.hdf5
+26/26 [==============================] - 11s 442ms/step - loss: 0.7905 - dice_eval: 0.0021 - val_loss: 0.7861 - val_dice_eval: 2.2105e-09 - lr: 5.0000e-04
+Epoch: 57, learning rate = 0.0005
+Epoch 58/100
+26/26 [==============================] - ETA: 0s - loss: 0.7847 - dice_eval: 0.0298
+Epoch 58: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-058-0.7847.hdf5
+26/26 [==============================] - 12s 465ms/step - loss: 0.7847 - dice_eval: 0.0298 - val_loss: 0.7826 - val_dice_eval: 2.1999e-09 - lr: 5.0000e-04
+Epoch: 58, learning rate = 0.0005
+Epoch 59/100
+26/26 [==============================] - ETA: 0s - loss: 0.7882 - dice_eval: 0.0017
+Epoch 59: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-059-0.7882.hdf5
+26/26 [==============================] - 12s 458ms/step - loss: 0.7882 - dice_eval: 0.0017 - val_loss: 0.7872 - val_dice_eval: 2.6406e-09 - lr: 5.0000e-04
+Epoch: 59, learning rate = 0.0005
+Epoch 60/100
+26/26 [==============================] - ETA: 0s - loss: 0.7831 - dice_eval: 0.0105
+Epoch 60: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-060-0.7831.hdf5
+26/26 [==============================] - 12s 472ms/step - loss: 0.7831 - dice_eval: 0.0105 - val_loss: 0.7796 - val_dice_eval: 1.7174e-09 - lr: 5.0000e-04
+Epoch: 60, learning rate = 0.0005
+Epoch 61/100
+26/26 [==============================] - ETA: 0s - loss: 0.7820 - dice_eval: 0.0178
+Epoch 61: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-061-0.7820.hdf5
+26/26 [==============================] - 12s 456ms/step - loss: 0.7820 - dice_eval: 0.0178 - val_loss: 0.7800 - val_dice_eval: 2.5886e-09 - lr: 5.0000e-04
+Epoch: 61, learning rate = 0.0005
+Epoch 62/100
+26/26 [==============================] - ETA: 0s - loss: 0.7851 - dice_eval: 0.0077
+Epoch 62: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-062-0.7851.hdf5
+26/26 [==============================] - 11s 450ms/step - loss: 0.7851 - dice_eval: 0.0077 - val_loss: 0.7836 - val_dice_eval: 3.0504e-09 - lr: 5.0000e-04
+Epoch: 62, learning rate = 0.0005
+Epoch 63/100
+26/26 [==============================] - ETA: 0s - loss: 0.7783 - dice_eval: 0.0381
+Epoch 63: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-063-0.7783.hdf5
+26/26 [==============================] - 12s 462ms/step - loss: 0.7783 - dice_eval: 0.0381 - val_loss: 0.7565 - val_dice_eval: 0.0179 - lr: 5.0000e-04
+Epoch: 63, learning rate = 0.0005
+Epoch 64/100
+26/26 [==============================] - ETA: 0s - loss: 0.7780 - dice_eval: 1.2057e-04
+Epoch 64: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-064-0.7780.hdf5
+26/26 [==============================] - 12s 472ms/step - loss: 0.7780 - dice_eval: 1.2057e-04 - val_loss: 0.7694 - val_dice_eval: 0.0114 - lr: 5.0000e-04
+Epoch: 64, learning rate = 0.0005
+Epoch 65/100
+26/26 [==============================] - ETA: 0s - loss: 0.7781 - dice_eval: 0.0027
+Epoch 65: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-065-0.7781.hdf5
+26/26 [==============================] - 12s 475ms/step - loss: 0.7781 - dice_eval: 0.0027 - val_loss: 0.7747 - val_dice_eval: 0.0242 - lr: 5.0000e-04
+Epoch: 65, learning rate = 0.0005
+Epoch 66/100
+26/26 [==============================] - ETA: 0s - loss: 0.7738 - dice_eval: 0.0250
+Epoch 66: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-066-0.7738.hdf5
+New best weights found!
+26/26 [==============================] - 12s 476ms/step - loss: 0.7738 - dice_eval: 0.0250 - val_loss: 0.7810 - val_dice_eval: 0.0352 - lr: 5.0000e-04
+Epoch: 66, learning rate = 0.0005
+Epoch 67/100
+26/26 [==============================] - ETA: 0s - loss: 0.7743 - dice_eval: 0.0381
+Epoch 67: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-067-0.7743.hdf5
+26/26 [==============================] - 11s 450ms/step - loss: 0.7743 - dice_eval: 0.0381 - val_loss: 0.7678 - val_dice_eval: 0.0303 - lr: 5.0000e-04
+Epoch: 67, learning rate = 0.0005
+Epoch 68/100
+26/26 [==============================] - ETA: 0s - loss: 0.7729 - dice_eval: 0.0212
+Epoch 68: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-068-0.7729.hdf5
+26/26 [==============================] - 12s 457ms/step - loss: 0.7729 - dice_eval: 0.0212 - val_loss: 0.7697 - val_dice_eval: 0.0036 - lr: 5.0000e-04
+Epoch: 68, learning rate = 0.0005
+Epoch 69/100
+26/26 [==============================] - ETA: 0s - loss: 0.7715 - dice_eval: 0.0398
+Epoch 69: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-069-0.7715.hdf5
+26/26 [==============================] - 12s 462ms/step - loss: 0.7715 - dice_eval: 0.0398 - val_loss: 0.7725 - val_dice_eval: 0.0236 - lr: 5.0000e-04
+Epoch: 69, learning rate = 0.0005
+Epoch 70/100
+26/26 [==============================] - ETA: 0s - loss: 0.7710 - dice_eval: 0.0466
+Epoch 70: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-070-0.7710.hdf5
+26/26 [==============================] - 11s 440ms/step - loss: 0.7710 - dice_eval: 0.0466 - val_loss: 0.7765 - val_dice_eval: 0.0211 - lr: 5.0000e-04
+Epoch: 70, learning rate = 0.00025
+Epoch 71/100
+26/26 [==============================] - ETA: 0s - loss: 0.7627 - dice_eval: 0.1049
+Epoch 71: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-071-0.7627.hdf5
+New best weights found!
+26/26 [==============================] - 12s 474ms/step - loss: 0.7627 - dice_eval: 0.1049 - val_loss: 0.7617 - val_dice_eval: 0.0367 - lr: 2.5000e-04
+Epoch: 71, learning rate = 0.00025
+Epoch 72/100
+26/26 [==============================] - ETA: 0s - loss: 0.7677 - dice_eval: 0.0668
+Epoch 72: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-072-0.7677.hdf5
+26/26 [==============================] - 11s 454ms/step - loss: 0.7677 - dice_eval: 0.0668 - val_loss: 0.7632 - val_dice_eval: 0.0201 - lr: 2.5000e-04
+Epoch: 72, learning rate = 0.00025
+Epoch 73/100
+26/26 [==============================] - ETA: 0s - loss: 0.7659 - dice_eval: 0.0794
+Epoch 73: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-073-0.7659.hdf5
+26/26 [==============================] - 12s 475ms/step - loss: 0.7659 - dice_eval: 0.0794 - val_loss: 0.7668 - val_dice_eval: 0.0144 - lr: 2.5000e-04
+Epoch: 73, learning rate = 0.00025
+Epoch 74/100
+26/26 [==============================] - ETA: 0s - loss: 0.7667 - dice_eval: 0.1018
+Epoch 74: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-074-0.7667.hdf5
+26/26 [==============================] - 11s 454ms/step - loss: 0.7667 - dice_eval: 0.1018 - val_loss: 0.7690 - val_dice_eval: 0.0333 - lr: 2.5000e-04
+Epoch: 74, learning rate = 0.00025
+Epoch 75/100
+26/26 [==============================] - ETA: 0s - loss: 0.7642 - dice_eval: 0.1218
+Epoch 75: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-075-0.7642.hdf5
+26/26 [==============================] - 12s 457ms/step - loss: 0.7642 - dice_eval: 0.1218 - val_loss: 0.7666 - val_dice_eval: 0.0159 - lr: 2.5000e-04
+Epoch: 75, learning rate = 0.00025
+Epoch 76/100
+26/26 [==============================] - ETA: 0s - loss: 0.7629 - dice_eval: 0.1173
+Epoch 76: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-076-0.7629.hdf5
+26/26 [==============================] - 11s 452ms/step - loss: 0.7629 - dice_eval: 0.1173 - val_loss: 0.7638 - val_dice_eval: 0.0245 - lr: 2.5000e-04
+Epoch: 76, learning rate = 0.00025
+Epoch 77/100
+26/26 [==============================] - ETA: 0s - loss: 0.7609 - dice_eval: 0.1211
+Epoch 77: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-077-0.7609.hdf5
+New best weights found!
+26/26 [==============================] - 12s 471ms/step - loss: 0.7609 - dice_eval: 0.1211 - val_loss: 0.7633 - val_dice_eval: 0.0371 - lr: 2.5000e-04
+Epoch: 77, learning rate = 0.00025
+Epoch 78/100
+26/26 [==============================] - ETA: 0s - loss: 0.7605 - dice_eval: 0.1466
+Epoch 78: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-078-0.7605.hdf5
+New best weights found!
+26/26 [==============================] - 12s 458ms/step - loss: 0.7605 - dice_eval: 0.1466 - val_loss: 0.7657 - val_dice_eval: 0.0418 - lr: 2.5000e-04
+Epoch: 78, learning rate = 0.00025
+Epoch 79/100
+26/26 [==============================] - ETA: 0s - loss: 0.7594 - dice_eval: 0.1253
+Epoch 79: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-079-0.7594.hdf5
+26/26 [==============================] - 11s 443ms/step - loss: 0.7594 - dice_eval: 0.1253 - val_loss: 0.7614 - val_dice_eval: 0.0139 - lr: 2.5000e-04
+Epoch: 79, learning rate = 0.00025
+Epoch 80/100
+26/26 [==============================] - ETA: 0s - loss: 0.7583 - dice_eval: 0.1558
+Epoch 80: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-080-0.7583.hdf5
+New best weights found!
+26/26 [==============================] - 11s 448ms/step - loss: 0.7583 - dice_eval: 0.1558 - val_loss: 0.7730 - val_dice_eval: 0.0783 - lr: 2.5000e-04
+Epoch: 80, learning rate = 0.00025
+Epoch 81/100
+26/26 [==============================] - ETA: 0s - loss: 0.7583 - dice_eval: 0.1333
+Epoch 81: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-081-0.7583.hdf5
+26/26 [==============================] - 11s 444ms/step - loss: 0.7583 - dice_eval: 0.1333 - val_loss: 0.7636 - val_dice_eval: 0.0559 - lr: 2.5000e-04
+Epoch: 81, learning rate = 0.00025
+Epoch 82/100
+26/26 [==============================] - ETA: 0s - loss: 0.7569 - dice_eval: 0.1825
+Epoch 82: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-082-0.7569.hdf5
+26/26 [==============================] - 11s 449ms/step - loss: 0.7569 - dice_eval: 0.1825 - val_loss: 0.7585 - val_dice_eval: 0.0475 - lr: 2.5000e-04
+Epoch: 82, learning rate = 0.00025
+Epoch 83/100
+26/26 [==============================] - ETA: 0s - loss: 0.7555 - dice_eval: 0.1617
+Epoch 83: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-083-0.7555.hdf5
+26/26 [==============================] - 11s 450ms/step - loss: 0.7555 - dice_eval: 0.1617 - val_loss: 0.7582 - val_dice_eval: 0.0580 - lr: 2.5000e-04
+Epoch: 83, learning rate = 0.00025
+Epoch 84/100
+26/26 [==============================] - ETA: 0s - loss: 0.7541 - dice_eval: 0.1917
+Epoch 84: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-084-0.7541.hdf5
+26/26 [==============================] - 11s 444ms/step - loss: 0.7541 - dice_eval: 0.1917 - val_loss: 0.7598 - val_dice_eval: 0.0435 - lr: 2.5000e-04
+Epoch: 84, learning rate = 0.00025
+Epoch 85/100
+26/26 [==============================] - ETA: 0s - loss: 0.7537 - dice_eval: 0.2022
+Epoch 85: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-085-0.7537.hdf5
+New best weights found!
+26/26 [==============================] - 11s 446ms/step - loss: 0.7537 - dice_eval: 0.2022 - val_loss: 0.7603 - val_dice_eval: 0.0878 - lr: 2.5000e-04
+Epoch: 85, learning rate = 0.00025
+Epoch 86/100
+26/26 [==============================] - ETA: 0s - loss: 0.7525 - dice_eval: 0.1973
+Epoch 86: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-086-0.7525.hdf5
+26/26 [==============================] - 11s 441ms/step - loss: 0.7525 - dice_eval: 0.1973 - val_loss: 0.7610 - val_dice_eval: 0.0522 - lr: 2.5000e-04
+Epoch: 86, learning rate = 0.00025
+Epoch 87/100
+26/26 [==============================] - ETA: 0s - loss: 0.7489 - dice_eval: 0.2588
+Epoch 87: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-087-0.7489.hdf5
+26/26 [==============================] - 11s 448ms/step - loss: 0.7489 - dice_eval: 0.2588 - val_loss: 0.7615 - val_dice_eval: 0.0609 - lr: 2.5000e-04
+Epoch: 87, learning rate = 0.00025
+Epoch 88/100
+26/26 [==============================] - ETA: 0s - loss: 0.7544 - dice_eval: 0.1916
+Epoch 88: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-088-0.7544.hdf5
+26/26 [==============================] - 11s 443ms/step - loss: 0.7544 - dice_eval: 0.1916 - val_loss: 0.7670 - val_dice_eval: 0.0834 - lr: 2.5000e-04
+Epoch: 88, learning rate = 0.00025
+Epoch 89/100
+26/26 [==============================] - ETA: 0s - loss: 0.7512 - dice_eval: 0.1927
+Epoch 89: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-089-0.7512.hdf5
+26/26 [==============================] - 11s 442ms/step - loss: 0.7512 - dice_eval: 0.1927 - val_loss: 0.7778 - val_dice_eval: 0.0765 - lr: 2.5000e-04
+Epoch: 89, learning rate = 0.00025
+Epoch 90/100
+26/26 [==============================] - ETA: 0s - loss: 0.7426 - dice_eval: 0.2561
+Epoch 90: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-090-0.7426.hdf5
+26/26 [==============================] - 11s 443ms/step - loss: 0.7426 - dice_eval: 0.2561 - val_loss: 0.7620 - val_dice_eval: 0.0825 - lr: 2.5000e-04
+Epoch: 90, learning rate = 0.00025
+Epoch 91/100
+26/26 [==============================] - ETA: 0s - loss: 0.7460 - dice_eval: 0.2665
+Epoch 91: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-091-0.7460.hdf5
+26/26 [==============================] - 11s 444ms/step - loss: 0.7460 - dice_eval: 0.2665 - val_loss: 0.7558 - val_dice_eval: 0.0664 - lr: 2.5000e-04
+Epoch: 91, learning rate = 0.00025
+Epoch 92/100
+26/26 [==============================] - ETA: 0s - loss: 0.7505 - dice_eval: 0.2181
+Epoch 92: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-092-0.7505.hdf5
+26/26 [==============================] - 11s 446ms/step - loss: 0.7505 - dice_eval: 0.2181 - val_loss: 0.7663 - val_dice_eval: 0.0756 - lr: 2.5000e-04
+Epoch: 92, learning rate = 0.00025
+Epoch 93/100
+26/26 [==============================] - ETA: 0s - loss: 0.7448 - dice_eval: 0.2733
+Epoch 93: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-093-0.7448.hdf5
+26/26 [==============================] - 11s 442ms/step - loss: 0.7448 - dice_eval: 0.2733 - val_loss: 0.7615 - val_dice_eval: 0.0552 - lr: 2.5000e-04
+Epoch: 93, learning rate = 0.00025
+Epoch 94/100
+26/26 [==============================] - ETA: 0s - loss: 0.7399 - dice_eval: 0.2583
+Epoch 94: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-094-0.7399.hdf5
+26/26 [==============================] - 11s 442ms/step - loss: 0.7399 - dice_eval: 0.2583 - val_loss: 0.7631 - val_dice_eval: 0.0501 - lr: 2.5000e-04
+Epoch: 94, learning rate = 0.00025
+Epoch 95/100
+26/26 [==============================] - ETA: 0s - loss: 0.7486 - dice_eval: 0.1781
+Epoch 95: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-095-0.7486.hdf5
+26/26 [==============================] - 11s 441ms/step - loss: 0.7486 - dice_eval: 0.1781 - val_loss: 0.7741 - val_dice_eval: 0.0617 - lr: 2.5000e-04
+Epoch: 95, learning rate = 0.00025
+Epoch 96/100
+26/26 [==============================] - ETA: 0s - loss: 0.7447 - dice_eval: 0.2082
+Epoch 96: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-096-0.7447.hdf5
+26/26 [==============================] - 11s 438ms/step - loss: 0.7447 - dice_eval: 0.2082 - val_loss: 0.7580 - val_dice_eval: 0.0713 - lr: 2.5000e-04
+Epoch: 96, learning rate = 0.00025
+Epoch 97/100
+26/26 [==============================] - ETA: 0s - loss: 0.7414 - dice_eval: 0.2371
+Epoch 97: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-097-0.7414.hdf5
+26/26 [==============================] - 11s 441ms/step - loss: 0.7414 - dice_eval: 0.2371 - val_loss: 0.7462 - val_dice_eval: 0.0370 - lr: 2.5000e-04
+Epoch: 97, learning rate = 0.00025
+Epoch 98/100
+26/26 [==============================] - ETA: 0s - loss: 0.7395 - dice_eval: 0.2764
+Epoch 98: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-098-0.7395.hdf5
+26/26 [==============================] - 11s 442ms/step - loss: 0.7395 - dice_eval: 0.2764 - val_loss: 0.7519 - val_dice_eval: 0.0679 - lr: 2.5000e-04
+Epoch: 98, learning rate = 0.00025
+Epoch 99/100
+26/26 [==============================] - ETA: 0s - loss: 0.7370 - dice_eval: 0.3437
+Epoch 99: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-099-0.7370.hdf5
+26/26 [==============================] - 11s 442ms/step - loss: 0.7370 - dice_eval: 0.3437 - val_loss: 0.7469 - val_dice_eval: 0.0603 - lr: 2.5000e-04
+Epoch: 99, learning rate = 0.00025
+Epoch 100/100
+26/26 [==============================] - ETA: 0s - loss: 0.7392 - dice_eval: 0.2461
+Epoch 100: saving model to weights_output/UNet4_res_assp_5x5_16k_64x64-100-0.7392.hdf5
+26/26 [==============================] - 11s 438ms/step - loss: 0.7392 - dice_eval: 0.2461 - val_loss: 0.7453 - val_dice_eval: 0.0489 - lr: 2.5000e-04
