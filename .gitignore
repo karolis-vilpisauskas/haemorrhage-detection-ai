@@ -2,3 +2,17 @@ models
 linknet-checkpoints
 unet-checkpoints
 bdcu-checkpoints
+bcdu-weights
+deeplab-weights
+final-model
+js-linknet-model
+js-unet-model
+linknet-model
+tmp
+data
+unet-model
+unet-weights-b0
+unet-weights-vgg16
+unet-b7-weights
+attention-unet-weights
+Extended/weights_output
